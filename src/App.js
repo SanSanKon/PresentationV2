@@ -14,6 +14,7 @@ import { AnimatePresence } from 'framer-motion';
 import Volunteer from './pages/Volunteer';
 import MassActions from "./pages/MassActions";
 import Winners from "./pages/Winners";
+// import QRCode from "./pages/QRCode";
 //import Footer from "./components/Footer";
 
 function App() {
@@ -42,7 +43,9 @@ function App() {
         </Route>
         <Route path='/contact' element={<ContactUs />}>
           {/* <ContactUs /> */}
-        </Route> 
+        </Route>
+        {/* <Route path='/qrcode' element={<QRCode />}>
+        </Route> */}
       </Routes>
       </AnimatePresence>
       {/* <Footer /> */}
