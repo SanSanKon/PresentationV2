@@ -78,6 +78,12 @@ const ImageDisplay = styled.div`
         text-align: center;
         text-decoration: underline;
         width: 70%;
+        /* @media screen and (max-width: 768px) {
+            font-size: 1.5rem;
+        }
+        @media screen and (max-width: 425px) {
+            font-size: 1rem;
+        } */
     }
 
     p {
@@ -85,6 +91,12 @@ const ImageDisplay = styled.div`
         padding: 0;
         text-align: justify;
         width: 65%;
+        /* @media screen and (max-width: 768px) {
+            font-size: 1rem;
+        }
+        @media screen and (max-width: 425px) {
+            font-size: 0.75rem;
+        } */
     }
 
     img {

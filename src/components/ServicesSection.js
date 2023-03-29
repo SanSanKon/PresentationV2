@@ -74,6 +74,7 @@ const QRCodeWrapper = styled.div`
     h2 {
         color: white;
         margin: 0 0 2rem;
+        text-align: center;
     }
 `;
 

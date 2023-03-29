@@ -44,7 +44,7 @@ a {
 h2 {
     font-size: 2rem;
     font-weight: lighter;
-    @media screen and (max-width: 631px) {
+    @media screen and (max-width: 768px) {
         font-size: 1.5rem;
     }
     @media screen and (max-width: 450px) {
@@ -84,7 +84,8 @@ p {
     font-size: 1.4rem;
     line-height: 150%;
     padding: 3rem 0rem;
-    @media screen and (max-width: 631px) {
+    @media screen and (max-width: 768px) {
+        font-size: 1rem;
         padding: 1.5rem;
     }
     @media screen and (max-width: 450px) {

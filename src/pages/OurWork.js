@@ -80,6 +80,14 @@ const Movie = styled(motion.div)`
         object-fit: cover;
         width: 100%;
     }
+    @media screen and (max-width: 768px) {
+        padding-bottom: 3rem;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
     @media screen and (max-width: 450px) {
         padding-bottom: 1rem;
     }

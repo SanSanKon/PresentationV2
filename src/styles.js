@@ -6,13 +6,16 @@ export const About = styled(motion.div)`
     color: white;
     display: flex;
     justify-content: space-between;
-    min-height: 90vh;
+    /* min-height: 90vh; */
     padding: 5rem 10rem;
     @media screen and (max-width: 1300px) {
         display: block;
         padding: 2rem 2rem;
         text-align: center;
     }
+    /* @media screen and (max-width: 768px) {
+        min-height: 60vh;
+    } */
     @media screen and (max-width: 450px) {
         padding: 1rem 1rem;
     }
