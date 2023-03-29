@@ -4,18 +4,14 @@ import AboutUs from "./pages/AboutUs";
 import OurWork from './pages/OurWork';
 import ContactUs from './pages/ContactUs';
 import Nav from "./components/Nav";
-//import MovieDetail from "./pages/MovieDetail";
-//import TheAthlete from './pages/TheAthlete';
 //Router
 import { Route, Routes, useLocation } from 'react-router-dom';
-//import MovieDetail from "./pages/MovieDetail";
 //Animation
 import { AnimatePresence } from 'framer-motion';
 import Volunteer from './pages/Volunteer';
 import MassActions from "./pages/MassActions";
 import Winners from "./pages/Winners";
-// import QRCode from "./pages/QRCode";
-//import Footer from "./components/Footer";
+
 
 function App() {
 
@@ -44,11 +40,8 @@ function App() {
         <Route path='/contact' element={<ContactUs />}>
           {/* <ContactUs /> */}
         </Route>
-        {/* <Route path='/qrcode' element={<QRCode />}>
-        </Route> */}
       </Routes>
       </AnimatePresence>
-      {/* <Footer /> */}
     </div>
   );
 }

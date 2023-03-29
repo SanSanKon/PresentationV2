@@ -8,18 +8,9 @@ import { scrollReveal } from "../animation";
 // import images
 import actionOne from '../img/action20221.jpg';
 import actionTwo from '../img/action20222.jpg';
-// import actionThree from '../img/actions20223.jpg';
 import sportActionList from '../img/sportactionsreport2022.jpg';
 import partAndOrg2022 from '../img/partandorg2022.jpg';
 import ourTourism from '../img/ourtourism2022.jpg';
-// import teamBuilding from '../img/32teambuilding.jpg';
-// import ninthOfMayOne from '../img/9ofMay6.jpeg';
-// import ninthOfMayTwo from '../img/9ofMay7.jpeg';
-// import ninthOfMayThree from '../img/9ofMay3.jpeg';
-// import ninthOfMayFour from '../img/9ofMay4.jpeg';
-// import ninthOfMayFive from '../img/9ofMay5.jpeg';
-// import SokolnikiOne from '../img/sokolniki1.jpeg';
-// import SokolnikiThree from '../img/sokolniki3.jpeg';
 import ThanksOne from '../img/thank20221.jpg';
 import ThanksTwo from '../img/thank20222.jpg';
 import ThanksThree from '../img/thank20223.jpg';
@@ -31,14 +22,13 @@ import ThanksSeven from '../img/thank20227.jpg';
 const FaqSection = () => {
     const [element, controls] = useScroll();
     return (
-        <Faq variants={scrollReveal} ref={element} animate={controls} inintial="hidden">
+        <Faq> {/*variants={scrollReveal} ref={element} animate={controls} inintial="hidden"*/}
         <AnimateSharedLayout>
             <h2>Участие в конкурсах и мероприятиях</h2>
             <Toggle title='Перечень конкурсов и мероприятий, в которых было принято участие'>
                 <div className="answer">
                     <img className="firstImg" src={actionOne} alt='action1' />
                     <img className="secondImg" src={actionTwo} alt='action2' />
-                    {/* <img className="secondImg" src={actionThree} alt='action3' /> */}
                 </div>
             </Toggle>
             <Toggle title='Отчет о спортивных мероприятиях 2022'>
@@ -56,26 +46,6 @@ const FaqSection = () => {
                     <img className="fifthImg" src={ourTourism} alt='actionses' />
                 </div>
             </Toggle>
-            {/* <Toggle title='Тимбилдинг'>
-                <div className="answer">
-                    <img className="sixthImg" src={teamBuilding} alt='teamBuilding' />
-                </div>
-            </Toggle>
-            <Toggle title='Участие в мероприятиях, посвященных 9 мая 2022 г.'>
-                <div className="answer">
-                    <img className="seventhImg" src={ninthOfMayOne} alt='9ofMay' />
-                    <img className="eighthImg" src={ninthOfMayTwo} alt='9ofMay' />
-                    <img className="ninthImg" src={ninthOfMayThree} alt='9ofMay' />
-                    <img className="tenthImg" src={ninthOfMayFour} alt='9ofMay' />
-                    <img className="eleventhImg" src={ninthOfMayFive} alt='9ofMay' />
-                </div>
-            </Toggle>
-            <Toggle title='Участие в субботнике в парке Сокольники'>
-                <div className="answer">
-                    <img className="twelvthImg" src={SokolnikiOne} alt='sokolnikiOne' />
-                    <img className="fourteenthImg" src={SokolnikiThree} alt='sokolnikiOne' />
-                </div>
-            </Toggle> */}
             <Toggle title='Благодарности'>
                 <div className="answer">
                     <img className="fifteenththImg" src={ThanksOne} alt='thanks-one' />
