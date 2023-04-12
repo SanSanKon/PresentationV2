@@ -8,6 +8,8 @@ import kindel4kids2 from '../img/kindel4kids20222.jpg';
 import kidsofdonbass from '../img/kidsofdonb2022.jpg';
 import kidspaints from '../img/kidspaints2022.jpg';
 import mydistrict from '../img/mydistrictgpw2022.jpg';
+import vactionOne from '../img/v-action20221.jpeg';
+import vactionTwo from '../img/v-action20222.jpeg';
 // import weRemember from '../img/weRemember.jpg';
 // import victoryForest from '../img/victoryForest.jpg';
 
@@ -48,6 +50,22 @@ const Volunteer = () => {
                     ПАО «Россети Московский регион» – «Московские кабельные сети» оказали 
                     мат. помощь 129 работников на общую сумму 144 600 (сто сорок четыре тысячи шестьсот) рублей 00 коп.
                 </p>
+                <div className="vactionWrapper">   
+                    <p>
+                        3.Для одного сотрудника и его сослуживцев: уже закуплены маскировочные сети 
+                        на 148000 руб. + 1500 руб. доставка.
+                        Сети переданы людям, осуществляющим доставку гуманитарных грузов к месту 
+                        нахождения нашего сотрудника. 
+                    </p>
+                    <img src={vactionOne} alt="military web" />
+                </div>
+                <div className="vactionWrapper">   
+                    <p className="secondParagraph">
+                        4.Для второго сотрудника: закуплен тепловизор + аккумуляторные батареи + зарядное устройство - 183000 руб.  
+                    </p>
+                    <img src={vactionTwo} alt="device" />
+                </div>
+                
 
                 {/* <h2>5. Мы помним</h2>
                 <img src={weRemember} alt="movie"/>
@@ -68,6 +86,19 @@ const ImageDisplay = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: center;
+        .vactionWrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            p {
+                margin: 0 0 1rem;
+                text-align: justify;
+            }
+            .secondParagraph {
+                width: 100%;
+            }
+        }
     }
     h2 {
         background: transparent;
@@ -105,7 +136,7 @@ const ImageDisplay = styled.div`
         margin: 0 0 1rem 0;
         max-height: 60%;
         max-width: 60%;
-    }
+    }    
 `;
 
 export default Volunteer; 
