@@ -21,7 +21,7 @@ const Winners = () => {
 
                 <h2>3. Газета "Солидарность"</h2>
                 <img src={solidarity} />
-
+                
             </div>
         </ImageDisplay>
     );
