@@ -10,8 +10,7 @@ import kidspaints from '../img/kidspaints2022.jpg';
 import mydistrict from '../img/mydistrictgpw2022.jpg';
 import vactionOne from '../img/v-action20221.jpeg';
 import vactionTwo from '../img/v-action20222.jpeg';
-// import weRemember from '../img/weRemember.jpg';
-// import victoryForest from '../img/victoryForest.jpg';
+import freeTest from '../img/free-test.jpg';
 
 const Volunteer = () => {
 
@@ -52,7 +51,7 @@ const Volunteer = () => {
                 </p>
                 <div className="vactionWrapper">   
                     <p>
-                        3.Для одного сотрудника и его сослуживцев: уже закуплены маскировочные сети 
+                        3. Для одного сотрудника и его сослуживцев: уже закуплены маскировочные сети 
                         на 148000 руб. + 1500 руб. доставка.
                         Сети переданы людям, осуществляющим доставку гуманитарных грузов к месту 
                         нахождения нашего сотрудника. 
@@ -60,10 +59,27 @@ const Volunteer = () => {
                     <img src={vactionOne} alt="military web" />
                 </div>
                 <div className="vactionWrapper">   
-                    <p className="secondParagraph">
-                        4.Для второго сотрудника: закуплен тепловизор + аккумуляторные батареи + зарядное устройство - 183000 руб.  
+                    <p>
+                        4. Для второго сотрудника: закуплен тепловизор + аккумуляторные батареи + зарядное устройство - 183000 руб.
                     </p>
                     <img src={vactionTwo} alt="device" />
+                </div>
+
+                <h2>6. «Здравоохранение Подмосковья»</h2>
+                <div className="vactionWrapper">   
+                    <p>
+                    В рамках реализации Государственной программы Московской области 
+                    «Здравоохранение Подмосковья», а также в целях выполнения Решения 
+                    московской областной трехсторонней комиссии по регулированию 
+                    социально-трудовых отношений от 06 октября 2022 года 
+                    (п. 5 «О профилактике ВИЧ/СПИДа на рабочих местах и недопущению 
+                    дискриминации и стигматизации в трудовых коллективах лиц, живущих с ВИЧ-инфекцией»), 
+                    ГКУЗ МО «Центр по профилактике и борьбе со СПИДом и инфекционными 
+                    заболеваниями» провела выездное добровольное бесплатное анонимное 
+                    экспресс-тестирование для работников Северных электрических сетей 
+                    филиала ПАО «Россети Московский регион» на ВИЧ-инфекцию.
+                    </p>
+                    <img src={freeTest} alt="free test" />
                 </div>
                 
 
@@ -91,10 +107,10 @@ const ImageDisplay = styled.div`
             display: flex;
             flex-direction: column;
             justify-content: center;
-            p {
+            /* p {
                 margin: 0 0 1rem;
                 text-align: justify;
-            }
+            } */
             .secondParagraph {
                 width: 100%;
             }

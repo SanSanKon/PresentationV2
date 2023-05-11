@@ -21,23 +21,23 @@ import ThanksSeven from '../img/thank20227.jpg';
 import SoutInfoOne from '../img/soutinfo-20221.jpg';
 import SoutInfoTwo from '../img/soutinfo-20222.jpg';
 import SoutOrder from '../img/sout2022-order.jpg';
-import SoutRegOne from '../img/sout-reg20221.jpg';
-import SoutRegTwo from '../img/sout-reg20222.jpg';
-import SoutRegThree from '../img/sout-reg20223.jpg';
-import SoutRegFour from '../img/sout-reg20224.jpg';
-import SoutRegFive from '../img/sout-reg20225.jpg';
-import SoutRegSix from '../img/sout-reg20226.jpg';
-import SoutRegSeven from '../img/sout-reg20227.jpg';
-import SoutRegEight from '../img/sout-reg20228.jpg';
-import SoutRegNine from '../img/sout-reg20229.jpg';
-import SoutRegTen from '../img/sout-reg202210.jpg';
-import SoutRegEleven from '../img/sout-reg202211.jpg';
-import SoutRegTwelve from '../img/sout-reg202212.jpg';
-import SoutRegThirteen from '../img/sout-reg202213.jpg';
-import SoutRegFourteen from '../img/sout-reg202214.jpg';
-import SoutRegFivteen from '../img/sout-reg202215.jpg';
-import SoutRegSixteen from '../img/sout-reg202216.jpg';
-import SoutRegSeventeen from '../img/sout-reg202217.jpg';
+// import SoutRegOne from '../img/sout-reg20221.jpg';
+// import SoutRegTwo from '../img/sout-reg20222.jpg';
+// import SoutRegThree from '../img/sout-reg20223.jpg';
+// import SoutRegFour from '../img/sout-reg20224.jpg';
+// import SoutRegFive from '../img/sout-reg20225.jpg';
+// import SoutRegSix from '../img/sout-reg20226.jpg';
+// import SoutRegSeven from '../img/sout-reg20227.jpg';
+// import SoutRegEight from '../img/sout-reg20228.jpg';
+// import SoutRegNine from '../img/sout-reg20229.jpg';
+// import SoutRegTen from '../img/sout-reg202210.jpg';
+// import SoutRegEleven from '../img/sout-reg202211.jpg';
+// import SoutRegTwelve from '../img/sout-reg202212.jpg';
+// import SoutRegThirteen from '../img/sout-reg202213.jpg';
+// import SoutRegFourteen from '../img/sout-reg202214.jpg';
+// import SoutRegFivteen from '../img/sout-reg202215.jpg';
+// import SoutRegSixteen from '../img/sout-reg202216.jpg';
+// import SoutRegSeventeen from '../img/sout-reg202217.jpg';
 import SoutImgOne from '../img/sout20221.jpeg';
 import SoutImgTwo from '../img/sout20222.jpeg';
 import SoutImgThree from '../img/sout20223.jpeg';
@@ -93,7 +93,7 @@ const FaqSection = () => {
                     <img className="fifteenththImg" src={SoutInfoOne} alt='thanks-one' />
                     <img className="sixteenthImg" src={SoutInfoTwo} alt='thanks-two' />
                     <img className="seventeenthImg" src={SoutOrder} alt='thanks-three' />
-                    <img className="eighteenthImg" src={SoutRegOne} alt='thanks-four' />
+                    {/* <img className="eighteenthImg" src={SoutRegOne} alt='thanks-four' />
                     <img className="nineteenthImg" src={SoutRegTwo} alt='thanks-five' />
                     <img className="twentythImg" src={SoutRegThree} alt='thanks-six' />
                     <img className="twentyfirstImg" src={SoutRegFour} alt='thanks-seven' />
@@ -109,7 +109,7 @@ const FaqSection = () => {
                     <img className="twentyfirstImg" src={SoutRegFourteen} alt='thanks-seven' />
                     <img className="twentyfirstImg" src={SoutRegFivteen} alt='thanks-seven' />
                     <img className="twentyfirstImg" src={SoutRegSixteen} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutRegSeventeen} alt='thanks-seven' />
+                    <img className="twentyfirstImg" src={SoutRegSeventeen} alt='thanks-seven' /> */}
                     <img className="twentyfirstImg" src={SoutImgOne} alt='thanks-seven' />
                     <img className="twentyfirstImg" src={SoutImgTwo} alt='thanks-seven' />
                     <img className="twentyfirstImg" src={SoutImgThree} alt='thanks-seven' />

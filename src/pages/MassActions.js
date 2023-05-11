@@ -7,6 +7,7 @@ import OurSportsMensOne from '../img/oursportsmens20221.jpg';
 import OurSportsMensTwo from '../img/oursportsmens20222.jpg';
 import OurSportsMensThree from '../img/oursportsmens20223.jpg';
 import OurSportsMensFour from '../img/oursportsmens20224.jpg';
+import ninethOfMay from '../img/9thMay.jpg';
 
 const MassActions = () => {
     return (
@@ -25,6 +26,10 @@ const MassActions = () => {
                 <img src={OurSportsMensTwo} alt="skiing"/>
                 <img src={OurSportsMensThree} alt="skiing"/>
                 <img src={OurSportsMensFour} alt="skiing"/>
+
+                <h2>4. 9 мая</h2>
+                <img src={ninethOfMay} alt="9 of may"/>
+
 
             </div>
         </ImageDisplay>
