@@ -11,6 +11,7 @@ import { AnimatePresence } from 'framer-motion';
 import Volunteer from './pages/Volunteer';
 import MassActions from "./pages/MassActions";
 import Winners from "./pages/Winners";
+import ScrollButton from "./components/Button";
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
         </Route>
       </Routes>
       </AnimatePresence>
+      <ScrollButton />
     </div>
   );
 }
