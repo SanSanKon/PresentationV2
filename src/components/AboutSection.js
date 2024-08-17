@@ -1,15 +1,12 @@
 import React from "react";
 import Mosseti from '../img/ses6.jpg';
-//Import framer motion
 import {motion} from 'framer-motion';
 import { titleAnimation, fade, photoAnimation } from "../animation";
 import Wave from "./Wave";
-import qrcode from '../img/qr-code.png';
 
 //Styles
 
 import {About, Description, Image, Hide } from '../styles';
-import styled from "styled-components";
 
 const AboutSection = () => {
 
@@ -26,9 +23,9 @@ const AboutSection = () => {
                     <motion.p variants={fade}>Общая площадь, занимаемая объектами Северных электрических сетей, составляет 270 га.<br/>
                                                 Численность обслуживаемого населения - 1,255 млн.человек.<br/>
                                                 Территория  обслуживания    -  10 142 км².<br/>
-                                                Штатная численность персонала 1855 человек.<br/>
+                                                Штатная численность персонала 1870 человек на 31.12.2023.<br/>
                                                 Средний возраст работников 43 года.<br/>
-                                                Молодые сотрудники составляют 32% численности.<br/>
+                                                Молодые сотрудники составляют 40% численности.<br/>
                     </motion.p>
                     <motion.button variants={fade}><a href="https://rossetimr.ru/#">Россети</a></motion.button>
                 </Description>
@@ -39,7 +36,5 @@ const AboutSection = () => {
             </About>
     );
 };
-
-//Styled component
 
 export default AboutSection;
