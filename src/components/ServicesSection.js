@@ -1,21 +1,23 @@
 import React from "react";
 //Import images
 import QRCode from '../img/qr-code.png';
-import OsnPokaz from '../img/osnpokaz2022.jpg';
-import PlanOne from '../img/workplan20221.jpg';
-import PlanTwo from '../img/workplan20222.jpg';
-import PlanThree from '../img/workplan20223.jpg';
-import PlanFour from '../img/workplan20224.jpg';
-import YouthActOne from '../img/planyouth20221.jpg';
-import YouthActTwo from '../img/planyouth20222.jpg';
-import YouthActThree from '../img/planyouth20223.jpg';
-import YouthActFour from '../img/planyouth20224.jpg';
-import PlanUpolnomochOne from '../img/planupolnomoch20221.jpg';
-import PlanUpolnomochTwo from '../img/planupolnomoch20222.jpg';
-import PlanUpolnomochThree from '../img/planupolnomoch20223.jpg';
+import OsnPokaz from '../img/osnpokaz2023.jpg';
+import PlanOne from '../img/workplan20231.jpg';
+import PlanTwo from '../img/workplan20232.jpg';
+import PlanThree from '../img/workplan20233.jpg';
+import PlanFour from '../img/workplan20234.jpg';
+import PlanFive from "../img/workplan20235.jpg";
+import PlanSix from "../img/workplan20236.jpg";
+import YouthActPlanOne from '../img/youthActionPlan1.jpg';
+import YouthActPlanTwo from '../img/youthActionPlan2.jpg';
+import YouthActPlanThree from '../img/youthActionPlan3.jpg';
+import YouthActPlanFour from '../img/youthActionPlan4.jpg';
+import PlanUpolnomochOne from '../img/planupolnomoch20231.jpg';
+import PlanUpolnomochTwo from '../img/planupolnomoch20232.jpg';
+import PlanUpolnomochThree from '../img/planupolnomoch20233.jpg';
 
 //Styles
-import {About, Description, ImageTwo} from '../styles';
+import {About, ImageTwo} from '../styles';
 import styled from "styled-components";
 import { fade } from "../animation";
 import { useScroll } from "./useScroll";
@@ -38,25 +40,27 @@ const ServicesSection = () => {
             </Services>
             <Services>
                 <ImageTwo>
-                    <h2>План мероприятий на 2022 год</h2>
+                    <h2>План мероприятий на 2023 год</h2>
                     <img src ={PlanOne} alt='planOne' />
                     <img src = {PlanTwo} alt='planTwo' />
                     <img src = {PlanThree} alt='planThree' />
                     <img src = {PlanFour} alt='planFour' />
+                    <img src = {PlanFive} alt='planFive' />
+                    <img src = {PlanSix} alt='planSix' />
                 </ImageTwo>
             </Services>
             <Services>
                 <ImageTwo>
                     <h2>План совета молодых работников</h2>
-                    <img src={YouthActOne} alt='youthActOne'/>
-                    <img src={YouthActTwo} alt='youthActTwo' />
-                    <img src={YouthActThree} alt='youthActThree' />
-                    <img src={YouthActFour} alt='youthActFour' />
+                    <img src={YouthActPlanOne} alt='youthActOne'/>
+                    <img src={YouthActPlanTwo} alt='youthActTwo' />
+                    <img src={YouthActPlanThree} alt='youthActThree' />
+                    <img src={YouthActPlanFour} alt='youthActFour' />
                 </ImageTwo>
             </Services>
             <Services>
                 <ImageTwo>
-                    <h2>План работы уполномоченных (доверенных) лиц по охране труда на 2022 год</h2>
+                    <h2>План работы уполномоченных (доверенных) лиц по охране труда на 2023 год</h2>
                     <img src={PlanUpolnomochOne} alt='Plan page one' />
                     <img src={PlanUpolnomochTwo} alt='Plan page two' />
                     <img src={PlanUpolnomochThree} alt='Plan page three' />
