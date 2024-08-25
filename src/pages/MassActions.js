@@ -1,13 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 //Import images
-import FamilySport from '../img/familysport2022.jpg';
-import FamilySpartak from '../img/familyspartakiada2022.jpg';
-import OurSportsMensOne from '../img/oursportsmens20221.jpg';
-import OurSportsMensTwo from '../img/oursportsmens20222.jpg';
-import OurSportsMensThree from '../img/oursportsmens20223.jpg';
-import OurSportsMensFour from '../img/oursportsmens20224.jpg';
-import ninethOfMay from '../img/9thMay.jpg';
+import Badminton from '../img/badminton.jpg';
+import Basketball from '../img/basketball.jpeg';
+import Running from '../img/running.jpeg';
+import diplomOne from '../img/potapov.a.jpeg';
+import diplomTwo from "../img/potapov.e.jpeg"
 
 const MassActions = () => {
     return (
@@ -15,20 +13,18 @@ const MassActions = () => {
             <div className="actions-wrapper">
                 <h1>Культурно-массовые мероприятия:</h1>
 
-                <h2>1. Семейный спорт</h2>
-                <img src={FamilySport} alt="fishing"/>
+                <h2>1. Бадминтон</h2>
+                <img src={Badminton} alt="badminton"/>
 
-                <h2>2. Семейная спартакиада</h2>
-                <img src={FamilySpartak} alt="skiing"/>
+                <h2>2. Баскетбол</h2>
+                <img src={Basketball} alt="basketball"/>
 
-                <h2>3. Наши спортсмены</h2>
-                <img src={OurSportsMensOne} alt="skiing"/>
-                <img src={OurSportsMensTwo} alt="skiing"/>
-                <img src={OurSportsMensThree} alt="skiing"/>
-                <img src={OurSportsMensFour} alt="skiing"/>
+                <h2>3. Бег</h2>
+                <img src={Running} alt="running"/>
 
-                <h2>4. 9 мая</h2>
-                <img src={ninethOfMay} alt="9 of may"/>
+                <h2>4. Дипломы</h2>
+                <img src={diplomOne} alt="diplomOne"/>
+                <img src={diplomTwo} alt="diplomTwo"/>
 
 
             </div>

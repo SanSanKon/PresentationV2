@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 //Images
-import volunteering from '../img/volunteer2022.jpg';
-import MassActions from '../img/massactions2022.jpg';
+import volunteering from '../img/volunteer2023.jpg';
+import MassActions from '../img/massactions2023.jpeg';
 import Dynasty from '../img/labourdynasty2022.jpg';
 //import lake from '../img/LakeOne.jpg';
 //Animations

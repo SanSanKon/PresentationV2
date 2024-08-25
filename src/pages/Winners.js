@@ -1,11 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 //Import images
-import Dynasty from '../img/labourdynasty2022.jpg';
-import FleetCollection from '../img/fleetcollection2022.jpg';
-import solidarity from '../img/solidarity.jpg';
-// import DynastyTwo from '../img/36dynasty2.jpg';
-// import SafetyWinner from '../img/37safetywinner.jpg';
+import Dynasty from '../img/labourdinasty.jpeg';
+// import FleetCollection from '../img/fleetcollection2022.jpg';
+// import solidarity from '../img/solidarity.jpg';
 
 const Winners = () => {
     return(
@@ -16,11 +14,11 @@ const Winners = () => {
                 <h2>1. Трудовая династия</h2>
                 <img src={Dynasty} alt='dynasty'/>
 
-                <h2>2. Флотилия Дмитрия Синицына</h2>
+                {/* <h2>2. Флотилия Дмитрия Синицына</h2>
                 <img src={FleetCollection} alt='fleet collection' />
 
                 <h2>3. Газета "Солидарность"</h2>
-                <img src={solidarity} />
+                <img src={solidarity} /> */}
                 
             </div>
         </ImageDisplay>

@@ -25,13 +25,9 @@ function App() {
       <AnimatePresence exitBeforeEnter>
       <Routes location={location} key={location.pathname}>
         <Route exact path='/' element={<AboutUs />}>
-          {/* <AboutUs /> */}
         </Route>
         <Route path='/work' exact element={<OurWork />}>
-          {/* <OurWork /> */}
         </Route>
-        {/* <Route path="/work/:id" element={<MovieDetail />}>
-        </Route> */}
         <Route path="/work/volunteer" element={<Volunteer />}>
         </Route>
         <Route path="/work/massactions" element={<MassActions />}>
@@ -39,7 +35,6 @@ function App() {
         <Route path="work/winners" element={<Winners />}>
         </Route>
         <Route path='/contact' element={<ContactUs />}>
-          {/* <ContactUs /> */}
         </Route>
       </Routes>
       </AnimatePresence>

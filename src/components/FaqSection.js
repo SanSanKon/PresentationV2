@@ -3,50 +3,27 @@ import styled from "styled-components";
 import { About } from '../styles';
 import Toggle from "./Toggle";
 import { AnimateSharedLayout } from "framer-motion";
-import { useScroll } from "./useScroll";
-import { scrollReveal } from "../animation";
 // import images
-import actionOne from '../img/action20221.jpg';
-import actionTwo from '../img/action20222.jpg';
-import sportActionList from '../img/sportactionsreport2022.jpg';
-import partAndOrg2022 from '../img/partandorg2022.jpg';
-import ourTourism from '../img/ourtourism2022.jpg';
-import ThanksOne from '../img/thank20221.jpg';
-import ThanksTwo from '../img/thank20222.jpg';
-import ThanksThree from '../img/thank20223.jpg';
-import ThanksFour from '../img/thank20224.jpg';
-import ThanksFive from '../img/thank20225.jpg';
-import ThanksSix from '../img/thank20226.jpg';
-import ThanksSeven from '../img/thank20227.jpg';
-import SoutInfoOne from '../img/soutinfo-20221.jpg';
-import SoutInfoTwo from '../img/soutinfo-20222.jpg';
-import SoutOrder from '../img/sout2022-order.jpg';
-// import SoutRegOne from '../img/sout-reg20221.jpg';
-// import SoutRegTwo from '../img/sout-reg20222.jpg';
-// import SoutRegThree from '../img/sout-reg20223.jpg';
-// import SoutRegFour from '../img/sout-reg20224.jpg';
-// import SoutRegFive from '../img/sout-reg20225.jpg';
-// import SoutRegSix from '../img/sout-reg20226.jpg';
-// import SoutRegSeven from '../img/sout-reg20227.jpg';
-// import SoutRegEight from '../img/sout-reg20228.jpg';
-// import SoutRegNine from '../img/sout-reg20229.jpg';
-// import SoutRegTen from '../img/sout-reg202210.jpg';
-// import SoutRegEleven from '../img/sout-reg202211.jpg';
-// import SoutRegTwelve from '../img/sout-reg202212.jpg';
-// import SoutRegThirteen from '../img/sout-reg202213.jpg';
-// import SoutRegFourteen from '../img/sout-reg202214.jpg';
-// import SoutRegFivteen from '../img/sout-reg202215.jpg';
-// import SoutRegSixteen from '../img/sout-reg202216.jpg';
-// import SoutRegSeventeen from '../img/sout-reg202217.jpg';
-import SoutImgOne from '../img/sout20221.jpeg';
-import SoutImgTwo from '../img/sout20222.jpeg';
-import SoutImgThree from '../img/sout20223.jpeg';
-import SoutImgFour from '../img/sout20224.jpeg';
-import SoutImgFive from '../img/sout20225.jpeg';
+import actionOne from '../img/action20231.jpg';
+import actionTwo from '../img/action20232.jpg';
+import actionThree from '../img/action20233.jpg';
+import sportActionList from '../img/sportactionsreport2023.jpg';
+import partAndOrg2023 from '../img/partandorg2023.jpg';
+import VolunteerActionOne from '../img/volunteerActionOne.jpg';
+import VolunteerActionTwo from '../img/volunteerActionTwo.jpg';
+import VolunteerActionThree from '../img/volunteerActionThree.jpg';
+import VolunteerActionFour from '../img/volunteerActionFour.jpg';
+import ThanksOne from '../img/thank20231.jpg';
+import ThanksTwo from '../img/thank20232.jpg';
+import ThanksThree from '../img/thank20233.jpg';
+import ThanksFour from '../img/thank20234.jpg';
+import ThanksFive from '../img/thank20235.jpg';
+import ThanksSix from '../img/thank20236.jpg';
+import SoutInfoOne from '../img/diplomSkvorcov1.jpeg';
+import SoutInfoTwo from '../img/diplomSkvorcov2.jpeg';
  
 
 const FaqSection = () => {
-    const [element, controls] = useScroll();
     return (
         <Faq> {/*variants={scrollReveal} ref={element} animate={controls} inintial="hidden"*/}
         <AnimateSharedLayout>
@@ -55,21 +32,25 @@ const FaqSection = () => {
                 <div className="answer">
                     <img className="firstImg" src={actionOne} alt='action1' />
                     <img className="secondImg" src={actionTwo} alt='action2' />
+                    <img className="secondImg" src={actionThree} alt='action2' />
                 </div>
             </Toggle>
-            <Toggle title='Отчет о спортивных мероприятиях 2022'>
+            <Toggle title='Отчет о спортивных мероприятиях 2023'>
                 <div className="answer">
                     <img className="thirdImg" src={sportActionList} alt='sportactions' />
                 </div>
             </Toggle>
             <Toggle title='Мероприятия: участие и проведение'>
                 <div className="answer">
-                    <img className="fourthImg" src={partAndOrg2022} alt='partandorg' />
+                    <img className="fourthImg" src={partAndOrg2023} alt='partandorg' />
                 </div>
             </Toggle>
-            <Toggle title='Наш туризм'>
+            <Toggle title='Волонтерские акции'>
                 <div className="answer">
-                    <img className="fifthImg" src={ourTourism} alt='actionses' />
+                    <img className="fifthImg" src={VolunteerActionOne} alt='actionses' />
+                    <img className="fifthImg" src={VolunteerActionTwo} alt='actionses' />
+                    <img className="fifthImg" src={VolunteerActionThree} alt='actionses' />
+                    <img className="fifthImg" src={VolunteerActionFour} alt='actionses' />
                 </div>
             </Toggle>
             <Toggle title='Благодарности'>
@@ -80,41 +61,12 @@ const FaqSection = () => {
                     <img className="eighteenthImg" src={ThanksFour} alt='thanks-four' />
                     <img className="nineteenthImg" src={ThanksFive} alt='thanks-five' />
                     <img className="twentythImg" src={ThanksSix} alt='thanks-six' />
-                    <img className="twentyfirstImg" src={ThanksSeven} alt='thanks-seven' />
                 </div>
             </Toggle>
-            <Toggle title='Специальная оценка условий труда'>
+            <Toggle title='Лучший уполномоченный по охране труда ВЭП'>
                 <div className="answer">
-                    <p>
-                        Дата проведения аттестации рабочих мест (СОУТ) - 18.11.2022 г.<br></br>
-                        Число работников, занятых на работах с вредными условиями труда (чел.) - 227. <br></br>
-                        В том числе женщин (чел.) - 8.
-                    </p>
                     <img className="fifteenththImg" src={SoutInfoOne} alt='thanks-one' />
                     <img className="sixteenthImg" src={SoutInfoTwo} alt='thanks-two' />
-                    <img className="seventeenthImg" src={SoutOrder} alt='thanks-three' />
-                    {/* <img className="eighteenthImg" src={SoutRegOne} alt='thanks-four' />
-                    <img className="nineteenthImg" src={SoutRegTwo} alt='thanks-five' />
-                    <img className="twentythImg" src={SoutRegThree} alt='thanks-six' />
-                    <img className="twentyfirstImg" src={SoutRegFour} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutRegFive} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutRegSix} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutRegSeven} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutRegEight} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutRegNine} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutRegTen} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutRegEleven} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutRegTwelve} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutRegThirteen} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutRegFourteen} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutRegFivteen} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutRegSixteen} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutRegSeventeen} alt='thanks-seven' /> */}
-                    <img className="twentyfirstImg" src={SoutImgOne} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutImgTwo} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutImgThree} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutImgFour} alt='thanks-seven' />
-                    <img className="twentyfirstImg" src={SoutImgFive} alt='thanks-seven' />
                 </div>
             </Toggle>
         </AnimateSharedLayout>

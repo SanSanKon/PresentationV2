@@ -28,17 +28,17 @@ const ScrollButton = () => {
             onClick={scrollToTop}
             style={{display: visible ? 'inline' : 'none'}}
         >
-            НАВЕРХ
+            Наверх
         </ButtonItself>
     )
 }
 
 const ButtonItself = styled.button`
-    background-color: #0f67b1;
-    border: 1px solid #34cbba;
-    border-radius: 10px;
+    background-color: transparent; //#0f67b1;
+    border: 2px solid #34cbba;
+    //border-radius: 10px;
     bottom: 20px;
-    color: #f3ffff;
+    color: #28d3a0;
     cursor: pointer;
     display: none;
     font-size: 18px;
