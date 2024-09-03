@@ -1,6 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 //Import images
+import Skiing from "../img/spartakiada.jpg";
+import Fishing from "../img/Fishing.jpg";
+import IntellectualGameOne from "../img/intellectualGameOne.jpeg";
+import IntellectualGameTwo from "../img/intellectualGameTwo.jpeg";
 import Badminton from '../img/badminton.jpg';
 import Basketball from '../img/basketball.jpeg';
 import Running from '../img/running.jpeg';
@@ -13,16 +17,27 @@ const MassActions = () => {
             <div className="actions-wrapper">
                 <h1>Культурно-массовые мероприятия:</h1>
 
-                <h2>1. Бадминтон</h2>
+                
+                <h2>1. Соревнования по лыжным гонкам</h2>
+                <img src={Skiing} alt="skiing"/>
+
+                <h2>2. День рыбака СЭС</h2>
+                <img src={Fishing} alt="fishing"/>
+                
+                <h2>3. Интеллектуальные игры</h2>
+                <img src={IntellectualGameOne} alt="gameOne"/>
+                <img src={IntellectualGameTwo} alt="gameTwo"/>
+
+                <h2>4. Бадминтон</h2>
                 <img src={Badminton} alt="badminton"/>
 
-                <h2>2. Баскетбол</h2>
+                <h2>5. Баскетбол</h2>
                 <img src={Basketball} alt="basketball"/>
 
-                <h2>3. Бег</h2>
+                <h2>6. Бег</h2>
                 <img src={Running} alt="running"/>
 
-                <h2>4. Дипломы</h2>
+                <h2>7. Дипломы</h2>
                 <img src={diplomOne} alt="diplomOne"/>
                 <img src={diplomTwo} alt="diplomTwo"/>
 
