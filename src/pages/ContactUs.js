@@ -11,6 +11,9 @@ import { scrollReveal } from "../animation";
 
 //Import images
 import ParticipantPhoto from '../img/participant.jpeg';
+import QuestionnaireOne from '../img/1questionnaire.jpg';
+import QuestionnaireTwo from '../img/2questionnaire.jpg';
+import QuestionnaireThree from '../img/3questionnaire.jpg';
 
 const Participant = () => {
   const [element, controls] = useScroll();
@@ -32,6 +35,26 @@ const Participant = () => {
                       <p><span>Прочее:</span> - активист МОМ и МО ВЭП;</p>
                     </div>
                     <img className='participantImg' src={ParticipantPhoto} alt='participant' />
+                </div>
+            </Toggle>
+            <Toggle title='Основная проблема'>
+                <div className='answer'>
+                    <h3>Основной проблемой в настоящее время является побуждение молодежи к вступлению в профсоюз.</h3>
+                </div>
+            </Toggle>
+            <Toggle title='Предложения участника конкурса'>
+                <div className="answer">
+                    <h3>Мои предложения по решению указанной проблемы:</h3>
+                    <p>1. Мотивация профсоюзного членства. Достигается путем проведения бесед с принимаемыми на работу новыми сотруниками.
+                    Беседа заключается не в "уговаривании" вступить в профсоюз, а в указании на эффективные инструменты профсоюза по представлению интересов
+                    и защите прав работников - членов профсоюза. При этом подчеркивая, что деятельность профсоюза не ограничвается указанным выше.</p><br />
+                    <p>2. Использование в беседе эффективной аргументации, путем ссылок на зконодательные акты, статистические данные,
+                    факты из открытых источников.</p>
+                    <p>С целью более эффективной и плодотворной совместной работы профсоюза и уполномоченных по охране труда, 
+                    предложены и используются анкеты-опросник в филиале.</p>
+                    <img className="someImg" src={QuestionnaireOne} alt='questionnaireOne' />
+                    <img className="someImg" src={QuestionnaireTwo} alt='questionnaireTwo' />
+                    <img className="someImg" src={QuestionnaireThree} alt='questionnaireThree' />
                 </div>
             </Toggle>
         </AnimateSharedLayout>

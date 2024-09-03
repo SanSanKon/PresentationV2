@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 //Import images
 import Dynasty from '../img/labourdinasty.jpeg';
+import DynastyInner from "../img/labourdynastyinner2023.jpeg"
 // import FleetCollection from '../img/fleetcollection2022.jpg';
 // import solidarity from '../img/solidarity.jpg';
 
@@ -12,6 +13,7 @@ const Winners = () => {
                 <h1>Прочие достижения:</h1>
 
                 <h2>1. Трудовая династия</h2>
+                <img src={DynastyInner} alt='dynastyPhoto' />
                 <img src={Dynasty} alt='dynasty'/>
 
                 {/* <h2>2. Флотилия Дмитрия Синицына</h2>

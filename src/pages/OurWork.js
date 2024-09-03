@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 //Images
 import volunteering from '../img/volunteer2023.jpg';
 import MassActions from '../img/massactions2023.jpeg';
-import Dynasty from '../img/labourdynasty2022.jpg';
+import Dynasty from '../img/labourdynasty2023.jpeg';
 //import lake from '../img/LakeOne.jpg';
 //Animations
 import { motion } from "framer-motion";
