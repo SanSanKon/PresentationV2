@@ -24,7 +24,7 @@ const MassActions = () => {
                 <h2>2. День рыбака СЭС</h2>
                 <img src={Fishing} alt="fishing"/>
                 
-                <h2>3. Интеллектуальные игры</h2>
+                <h2>3. Что? Где? ОТ!</h2>
                 <img src={IntellectualGameOne} alt="gameOne"/>
                 <img src={IntellectualGameTwo} alt="gameTwo"/>
 
