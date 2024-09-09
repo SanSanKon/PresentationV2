@@ -11,6 +11,10 @@ import Running from '../img/running.jpeg';
 import diplomOne from '../img/potapov.a.jpeg';
 import diplomTwo from "../img/potapov.e.jpeg";
 import diplomThree from "../img/tolmacheva.v.jpeg";
+import chess from "../img/chess.jpeg";
+import defenderDayOne from "../img/23febOne.jpeg";
+import defenderDayTwo from "../img/23febTwo.jpeg";
+import defenderDayThree from "../img/23febThree.jpeg";
 
 const MassActions = () => {
     return (
@@ -29,19 +33,27 @@ const MassActions = () => {
                 <img src={IntellectualGameOne} alt="gameOne"/>
                 <img src={IntellectualGameTwo} alt="gameTwo"/>
 
-                <h2>4. Бадминтон</h2>
+                <h2>4. Участие в Спартакиаде МОМ и МО ВЭП;</h2>
+                <img src={chess} alt="chess"/>
+
+                <h2>5. Бадминтон</h2>
                 <img src={Badminton} alt="badminton"/>
 
-                <h2>5. Баскетбол</h2>
+                <h2>6. Баскетбол</h2>
                 <img src={Basketball} alt="basketball"/>
 
-                <h2>6. Бег</h2>
+                <h2>7. Бег</h2>
                 <img src={Running} alt="running"/>
 
-                <h2>7. Дипломы</h2>
+                <h2>8. Дипломы</h2>
                 <img src={diplomOne} alt="diplomOne"/>
                 <img src={diplomTwo} alt="diplomTwo"/>
                 <img src={diplomThree} alt="diplomThree"/>
+
+                <h2>9. Организация праздника «День защитника Отечества»</h2>
+                <img src={defenderDayOne} alt="defenderDayOne"/>
+                <img src={defenderDayTwo} alt="defenderDayTwo"/>
+                <img src={defenderDayThree} alt="defenderDayThree"/>
 
             </div>
         </ImageDisplay>
