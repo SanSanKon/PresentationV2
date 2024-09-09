@@ -21,6 +21,7 @@ import ThanksFive from '../img/thank20235.jpg';
 import ThanksSix from '../img/thank20236.jpg';
 import SoutInfoOne from '../img/diplomSkvorcov1.jpeg';
 import SoutInfoTwo from '../img/diplomSkvorcov2.jpeg';
+import SoutTeaching from '../img/soutTeach.jpeg';
  
 
 const FaqSection = () => {
@@ -65,8 +66,13 @@ const FaqSection = () => {
             </Toggle>
             <Toggle title='Лучший уполномоченный по охране труда ВЭП'>
                 <div className="answer">
-                    <img className="fifteenththImg" src={SoutInfoOne} alt='thanks-one' />
-                    <img className="sixteenthImg" src={SoutInfoTwo} alt='thanks-two' />
+                    <img className="fifteenththImg" src={SoutInfoOne} alt='diplomOne' />
+                    <img className="sixteenthImg" src={SoutInfoTwo} alt='diplomTwo' />
+                </div>
+            </Toggle>
+            <Toggle title='Обучение молодых специалистов по охране труда'>
+                <div className="answer">
+                    <img className="seventeenthImg" src={SoutTeaching} alt='lecture' />
                 </div>
             </Toggle>
         </AnimateSharedLayout>

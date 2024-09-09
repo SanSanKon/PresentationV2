@@ -9,7 +9,8 @@ import Badminton from '../img/badminton.jpg';
 import Basketball from '../img/basketball.jpeg';
 import Running from '../img/running.jpeg';
 import diplomOne from '../img/potapov.a.jpeg';
-import diplomTwo from "../img/potapov.e.jpeg"
+import diplomTwo from "../img/potapov.e.jpeg";
+import diplomThree from "../img/tolmacheva.v.jpeg";
 
 const MassActions = () => {
     return (
@@ -40,7 +41,7 @@ const MassActions = () => {
                 <h2>7. Дипломы</h2>
                 <img src={diplomOne} alt="diplomOne"/>
                 <img src={diplomTwo} alt="diplomTwo"/>
-
+                <img src={diplomThree} alt="diplomThree"/>
 
             </div>
         </ImageDisplay>

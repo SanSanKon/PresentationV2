@@ -6,6 +6,15 @@ import kidsofdonbass from '../img/kidsofdonb2023.jpg';
 import veterans9thmay from '../img/veterans9thmay.jpg';
 import veteransforDayofEnergy from '../img/veteransforDayofEnergy.jpg';
 import vactionOne from '../img/v-action2023.jpg';
+import questCareOne from "../img/questCare1.jpeg";
+import questCareTwo from "../img/questCare2.jpeg";
+import questCareThree from "../img/questCare3.jpeg";
+import questHope from "../img/questHope1.jpeg";
+import workWithVeteransOne from "../img/workWithVeteransOne.jpeg";
+import workWithVeteransTwo from "../img/workWithVeteransTwo.jpeg";
+import veteransMuseumOne from "../img/veteransMuseumOne.jpeg";
+import veteransMuseumTwo from "../img/veteransMuseumTwo.jpeg";
+import veteransMuseumThree from "../img/veteransMuseumThree.jpeg";
 
 const Volunteer = () => {
 
@@ -18,13 +27,30 @@ const Volunteer = () => {
                 <h2>2. Акция Доброе электричество для детей Донбасса</h2>
                 <img src={kidsofdonbass} alt="for kids of donb"/>
 
-                <h2>3. Посещение ветеранов к 9 мая</h2>
-                <img src={veterans9thmay} alt="movie"/>
+                <h2>3. Квест с подарками ко Дню знаний в ГКУ "Социально-реабилитационный центр для несовершеннолетних "Забота"</h2>
+                <img src={questCareOne} alt="quest with presents"/>
+                <img src={questCareTwo} alt="quest with presents"/>
+                <img src={questCareThree} alt="quest with presents"/>
 
-                <h2>4. Посещение ветеранов ко ДЭ</h2>
-                <img src={veteransforDayofEnergy} alt="movie"/>
+                <h2>4. Квест с подарками ко Дню знаний в ГКУ "Социально-реабилитационный центр для несовершеннолетних "Надежда"</h2>
+                <img src={questHope} alt="quest with presents"/>
 
-                <h2>5. Помощь мобилизованным</h2>
+                <h2>5. Посещение ветеранов к 9 мая</h2>
+                <img src={veterans9thmay} alt="veteransVizit"/>
+
+                <h2>6. Посещение ветеранов ко ДЭ</h2>
+                <img src={veteransforDayofEnergy} alt="veteransVizit"/>
+
+                <h2>7. Работа с ветеранами</h2>
+                <img src={workWithVeteransOne} alt="workWithVeterans"/>
+                <img src={workWithVeteransTwo} alt="workWithVeterans"/>
+
+                <h2>8. Посещение ветеранами Музея Северных электрических сетей</h2>
+                <img src={veteransMuseumOne} alt="veteransMuseumOne"/>
+                <img src={veteransMuseumTwo} alt="veteransMuseumTwo"/>
+                <img src={veteransMuseumThree} alt="veteransMuseumThree"/>
+
+                <h2>9. Помощь мобилизованным</h2>
                 <img src={vactionOne} alt="military web" />
 
             </div>

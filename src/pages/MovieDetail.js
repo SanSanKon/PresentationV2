@@ -18,9 +18,6 @@ const MovieDetail = () => {
         setMovie(currentMovie[0]);
     }, [movies, url]);
 
-    console.log(url);
-
-
     return (
         <>
         { movie && (
